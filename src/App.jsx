@@ -1,8 +1,15 @@
+import { useState } from "react";
+import Header from "./components/header.jsx";
+import Data from "./data/data.json"
 
 function App() {
   return (
     <div>
-      <h1>Student Dashboard</h1>
+      <Header/>
+      <main>
+        
+      </main>
+      
     </div>
   );
 }
